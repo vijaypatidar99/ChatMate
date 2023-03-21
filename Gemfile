@@ -70,3 +70,8 @@ group :test do
   gem "selenium-webdriver"
   gem "webdrivers"
 end
+
+gem 'minitest', group: :test
+gem 'minitest-reporters', group: :test
+
+gem 'guard-rspec', require: false
