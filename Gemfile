@@ -75,3 +75,5 @@ gem 'minitest', group: :test
 gem 'minitest-reporters', group: :test
 
 gem 'guard-rspec', require: false
+gem "cssbundling-rails", "~> 1.1"
+gem 'sass-rails'
