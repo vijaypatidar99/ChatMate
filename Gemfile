@@ -78,3 +78,7 @@ gem 'guard-rspec', require: false
 gem "cssbundling-rails", "~> 1.1"
 gem 'sass-rails'
 gem 'rails-controller-testing'
+
+
+gem 'bcrypt', '3.1.13'
+gem 'bootstrap-sass', '3.4.1'
