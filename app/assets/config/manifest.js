@@ -5,4 +5,5 @@
 //= link custom.css
 //= link application.css
 //= link bootstrap.min.js
-
+//= require jquery
+//= require jquery_ujs

@@ -2,6 +2,7 @@
 @import "bootstrap";
 /* mixins, variables, etc. */
 $gray-medium-light: hsl(0, 43%, 92%);
+$gray-light: hsl(0, 0%, 3%);
 
 /* universal */
 body {
@@ -54,6 +55,7 @@ p {
   font-size: 1.1em;
   line-height: 1.7em;
 }
+
 
 /* header */
 
