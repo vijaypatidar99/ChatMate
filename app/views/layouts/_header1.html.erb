@@ -1,17 +1,29 @@
-<ul class="nav nav-tabs navbar-inverse">
-<%= link_to "ChatMate", root_path, id: "logo" %>
-<div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-  <li class="nav-item">
-    <a class="nav-link active" href="#">Active</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="#">Link</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="#">Link</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link disabled" href="#">Disabled</a>
-  </li>
-  </div>
+<header class="navbar  navbar-inverse"> <div class="container">
+<%= link_to "sample app", root_path, id: "logo" %> 
+<nav>
+<ul class="nav navbar-nav navbar-right">
+ <li><%= link_to "Home", root_path %></li> 
+<li><%= link_to "Help", help_path %></li>
+ <% if logged_in? %>
+<li><%= link_to "Users", "#" %></li> 
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-bs-toggle="dropdown"> Account <b class="caret"></b>
+</a>
+<ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+<li><%= link_to "Profile", current_user, class: "dropdown-item" %></li>
+<li><%= link_to "Settings", "#", class: "dropdown-item" %></li>
+<li class="divider"></li>
+<li><%= link_to "Log out", logout_path, method: :delete %></li>
+</div>
 </ul>
+</li>
+<% else %>
+<li><%= link_to "Log in", login_path %></li>
+<% end %>
+ </ul>
+</nav>
+ </div>
+</header>
+
+
+
