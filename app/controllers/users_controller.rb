@@ -1,4 +1,5 @@
 # frozen_string_literal: true
+
 class UsersController < ApplicationController
   def new
     @user = User.new
@@ -12,10 +13,10 @@ class UsersController < ApplicationController
     @user = User.new(user_params)
     if @user.save
       log_in @user
-      flash[:success] = "Welcome to the ChatMate!"
+      flash[:success] = 'Welcome to the ChatMate!'
       redirect_to @user
     else
-      render "new"
+      render 'new'
     end
   end
 
