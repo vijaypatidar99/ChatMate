@@ -74,16 +74,20 @@ group :test do
   gem "webdrivers"
 end
 
-gem 'minitest', group: :test
-gem 'minitest-reporters', group: :test
+gem "minitest", group: :test
+gem "minitest-reporters", group: :test
 
-gem 'guard-rspec', require: false
+gem "guard-rspec", require: false
 gem "cssbundling-rails", "~> 1.1"
-gem 'sass-rails'
-gem 'rails-controller-testing'
+gem "sass-rails"
+gem "rails-controller-testing"
 
-
-gem 'bcrypt', '3.1.13'
-gem 'bootstrap-sass', '3.4.1'
+gem "bcrypt", "3.1.13"
+gem "bootstrap-sass", "3.4.1"
 gem "jquery-rails"
 gem "bootstrap"
+gem "byebug"
+gem "faker"
+gem "htmlbeautifier"
+gem "will_paginate"
+gem "bootstrap-will_paginate"

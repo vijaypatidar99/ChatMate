@@ -9,3 +9,181 @@ michael:
   name: Michael Example
   email: michael@example.com
   password_digest: <%= User.digest('password') %>
+  admin: true
+
+archer:
+  name: Sterling Archer
+  email: duchess@example.gov
+  password_digest: <%= User.digest('password') %>
+
+lana:
+  name: Lana Kane
+  email: hands@example.gov
+  password_digest: <%= User.digest('password') %>
+
+malory0:
+  name: Malory1 Archer
+  email: boss@example.gov
+  password_digest: <%= User.digest('password') %>
+
+malory2:
+  name: Malory3 Archer
+  email: boss1@example.gov
+  password_digest: <%= User.digest('password') %>
+  
+malory4:
+  name: Malory5 Archer
+  email: boss2@example.gov
+  password_digest: <%= User.digest('password') %>
+
+malory6:
+  name: Malory7 Archer
+  email: boss3@example.gov
+  password_digest: <%= User.digest('password') %>
+
+malory8:
+  name: Malory9 Archer
+  email: boss32@example.gov
+  password_digest: <%= User.digest('password') %>
+
+malory10:
+  name: Malory11 Archer
+  email: boss5@example.gov
+  password_digest: <%= User.digest('password') %>
+
+malory12:
+  name: Malory13 Archer
+  email: boss6@example.gov
+  password_digest: <%= User.digest('password') %>
+
+malory14:
+  name: Malory15 Archer
+  email: boss8@example.gov
+  password_digest: <%= User.digest('password') %>
+
+malory16:
+  name: Malory17 Archer
+  email: boss7@example.gov
+  password_digest: <%= User.digest('password') %>
+
+malory18:
+  name: Malory19 Archer
+  email: boss10@example.gov
+  password_digest: <%= User.digest('password') %>
+
+malory20:
+  name: Malory21 Archer
+  email: boss9@example.gov
+  password_digest: <%= User.digest('password') %>
+
+malory22:
+  name: Malory23 Archer
+  email: boss11@example.gov
+  password_digest: <%= User.digest('password') %>
+
+malory24:
+  name: Malory25 Archer
+  email: boss12@example.gov
+  password_digest: <%= User.digest('password') %>
+
+malory26:
+  name: Malory27 Archer
+  email: boss13@example.gov
+  password_digest: <%= User.digest('password') %>
+
+malory28:
+  name: Malory29 Archer
+  email: boss14@example.gov
+  password_digest: <%= User.digest('password') %>
+
+malory30:
+  name: Malory31 Archer
+  email: boss15@example.gov
+  password_digest: <%= User.digest('password') %>
+
+malory32:
+  name: Malory33 Archer
+  email: boss16@example.gov
+  password_digest: <%= User.digest('password') %>
+
+malory34:
+  name: Malory35 Archer
+  email: boss17@example.gov
+  password_digest: <%= User.digest('password') %>
+
+malory36:
+  name: Malory37 Archer
+  email: boss18@example.gov
+  password_digest: <%= User.digest('password') %>
+
+malory38:
+  name: Malory39 Archer
+  email: boss19@example.gov
+  password_digest: <%= User.digest('password') %>
+
+malory40:
+  name: Malory41 Archer
+  email: boss21@example.gov
+  password_digest: <%= User.digest('password') %>
+
+malory42:
+  name: Malory43 Archer
+  email: boss20@example.gov
+  password_digest: <%= User.digest('password') %>
+
+malory44:
+  name: Malory45 Archer
+  email: boss43@example.gov
+  password_digest: <%= User.digest('password') %>
+
+malory46:
+  name: Malory47 Archer
+  email: boss22@example.gov
+  password_digest: <%= User.digest('password') %>
+
+malory48:
+  name: Malory49 Archer
+  email: boss23@example.gov
+  password_digest: <%= User.digest('password') %>
+
+malory50:
+  name: Malory51 Archer
+  email: boss24@example.gov
+  password_digest: <%= User.digest('password') %>
+
+malory52:
+  name: Malory53 Archer
+  email: boss25@example.gov
+  password_digest: <%= User.digest('password') %>
+
+malory54:
+  name: Malory55 Archer
+  email: boss26@example.gov
+  password_digest: <%= User.digest('password') %>
+
+malory56:
+  name: Malory57 Archer
+  email: boss27@example.gov
+  password_digest: <%= User.digest('password') %>
+
+malory58:
+  name: Malory59 Archer
+  email: boss28@example.gov
+  password_digest: <%= User.digest('password') %>
+
+malory60:
+  name: Malory61 Archer
+  email: boss29@example.gov
+  password_digest: <%= User.digest('password') %>
+
+malory62:
+  name: Malory63 Archer
+  email: boss30@example.gov
+  password_digest: <%= User.digest('password') %>
+
+# <% 30.times do |n| %>
+# user_<%= n %>:
+# name: <%= "User #{n}" %>
+# email: <%= "user-#{n}@example.com" %>
+# password_digest: <%= User.digest('password') %>
+# <% end %>
