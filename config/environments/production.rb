@@ -97,3 +97,4 @@ Rails.application.configure do
 end
 config.assets.css_compressor = :yui
 config.assets.js_compressor = :terser
+config.action_mailer.default_url_options = { host: "www.example.com" }
