@@ -97,4 +97,17 @@ Rails.application.configure do
 end
 config.assets.css_compressor = :yui
 config.assets.js_compressor = :terser
-config.action_mailer.default_url_options = { host: "www.example.com" }
+
+config.action_mailer.delivery_method = :smtp
+host = 'vpatidar@bestpeers.com' #replace with your own url
+config.action_mailer.default_url_options = { host: host }
+
+# SMTP settings for gmail
+config.action_mailer.smtp_settings = {
+  :address              => "smtp.gmail.com",
+  :port                 => 587,
+  :user_name            => 'vpatidar@bestpeers.com',
+  :password             => '9926724172@vpbestpeers',
+  :authentication       => "plain",
+  :enable_starttls_auto => true
+}
