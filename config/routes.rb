@@ -12,8 +12,11 @@ Rails.application.routes.draw do
   get "/help", to: "static_pages#help"
   get "/about", to: "static_pages#about"
   get "/contact", to: "static_pages#contact"
-  resources :users
+  resources :users #except: [:destroy] 
   resources :sessions
   resources :account_activations, only: [:edit]
   resources :password_resets, only: [:new, :create, :edit, :update]
+  # delete 'users/:id/delete' => 'users#destroy', as: 'users_delete'
+  # get '/users/:id/delete' => 'users#destroy'
+  
 end
