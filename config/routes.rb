@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
-  get 'password_resets/new'
-  get 'password_resets/edit'
+  get "password_resets/new"
+  get "password_resets/edit"
   get "/login", to: "sessions#new"
   post "/login", to: "sessions#create"
   get "/login", to: "sessions#create"
@@ -12,11 +12,9 @@ Rails.application.routes.draw do
   get "/help", to: "static_pages#help"
   get "/about", to: "static_pages#about"
   get "/contact", to: "static_pages#contact"
-  resources :users #except: [:destroy] 
+  resources :users #except: [:destroy]
   resources :sessions
   resources :account_activations, only: [:edit]
   resources :password_resets, only: [:new, :create, :edit, :update]
-  # delete 'users/:id/delete' => 'users#destroy', as: 'users_delete'
-  # get '/users/:id/delete' => 'users#destroy'
-  
+  resources :microposts, only: [:create, :destroy]
 end
