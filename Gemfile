@@ -91,3 +91,6 @@ gem "faker"
 gem "htmlbeautifier"
 gem "will_paginate"
 gem "bootstrap-will_paginate"
+gem 'active_storage_validations'
+gem 'image_processing'
+gem 'mini_magick'
