@@ -8,8 +8,8 @@
 
 # Create a main sample user.
 # Create a main sample user.
-# User.create!(name: "Example User",
-#              email: "example@railstutorial.org",
+# User.create!(name: "Vijay Patidar",
+#              email: "itzvijaypatidar@gmail.com",
 #              password: "foobar",
 #              password_confirmation: "foobar",
 #              admin: true,
@@ -17,7 +17,7 @@
 #              activated_at: Time.zone.now)
 
              
-# # Generate a bunch of additional users.
+# Generate a bunch of additional users.
 
 # 99.times do |n|
 #   name = Faker::Name.name
@@ -31,7 +31,7 @@
 #                activated_at: Time.zone.now)
 # end
 
-# Generate microposts for a subset of users.
+# # # Generate microposts for a subset of users.
 # users = User.order(:created_at).take(6)
 # 50.times do
 # content = Faker::Lorem.sentence(word_count: 5)
