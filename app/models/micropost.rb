@@ -11,7 +11,6 @@ class Micropost < ApplicationRecord
 
   # Returns a resized image for display.
   def display_image
-    image.variant(resize_to_limit: [200, 200])
+    image.variant(resize_to_limit: [300, 300])
   end
-
 end

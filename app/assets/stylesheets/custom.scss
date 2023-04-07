@@ -87,7 +87,7 @@ footer {
   width: 100%;
   margin-top: 10%;
   padding-top: 10px;
-  // border-top: 1px solid #a02828;
+  border-top: 1px solid #a02828;
   color: $light-gray;
 
   .wrapper {
@@ -97,7 +97,7 @@ footer {
   }
 
   a {
-    color: #555;
+    color: #080808;
 
     &:hover {
       color: hsl(0, 94%, 48%);

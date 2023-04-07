@@ -52,7 +52,6 @@ class PasswordResetsController < ApplicationController
             @user.authenticated?(:reset, params[:id]))
       redirect_to root_url
     end
-    
   end
 
   # Checks expiration of reset token.
