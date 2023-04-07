@@ -1,7 +1,9 @@
 ChatMate
+
 ChatMate is a Ruby on Rails web application that allows users to share messages with each other. Similar to Twitter, users can follow each other and view each other's posts in a feed.
 
-Features
+Features: 
+
 User authentication: Users can create an account, log in, and log out.
 User profiles: Each user has a profile page that shows their information and their posts.
 Post creation: Users can create posts of up to 280 characters.
@@ -11,6 +13,8 @@ Hashtags: Users can use hashtags in their posts, and clicking on a hashtag will 
 Search: Users can search for posts by keyword or hashtag.
 Notifications: Users receive notifications when they have new followers or when their posts are liked or commented on.
 Installation
+
+
 To run ChatMate on your local machine, follow these steps:
 
 Clone the repository: git clone https://github.com/vijaypatidar99/ChatMate.git
@@ -21,7 +25,8 @@ Visit http://localhost:3000 in your web browser.
 Dependencies
 Ruby 3.0.1
 Rails 7.0.1
-SQlite
+SqLite
+
 Contributing
 If you find a bug or have a feature request, please open an issue.
 
