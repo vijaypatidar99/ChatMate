@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ## CHATMATE
 ChatMate is a Ruby on Rails web application that allows users to share messages with each other. Similar to Twitter, users can follow each other and view each other's posts in a feed.
 
